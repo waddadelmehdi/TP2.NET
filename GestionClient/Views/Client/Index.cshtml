@@ -1,0 +1,14 @@
+﻿@model GestionClient.Models.Client
+@{
+    ViewData["Title"] = "Client Index";
+    Layout = "_Layout";
+}
+
+<h3>Ajouter un client</h3>
+<form asp-action="Save" method="post">
+    Id : @Html.TextBoxFor(client => client.Id) <br />
+    Nom : @Html.TextBoxFor(client => client.Nom) <br />
+    Prenom : @Html.TextBoxFor(client => client.Prenom) <br />
+    Ville : @Html.TextBoxFor(client => client.ville) <br />
+    <button type="submit">Envoyer</button>
+</form>

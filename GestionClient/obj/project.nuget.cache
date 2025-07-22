@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5h+y+Jgv9KA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ewaddad\\source\\repos\\GestionClient\\GestionClient\\GestionClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ewaddad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

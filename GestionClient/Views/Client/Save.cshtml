@@ -1,0 +1,14 @@
+﻿@model GestionClient.Models.Client
+@{
+    ViewData["Title"] = "Client ajouté";
+    Layout = "_Layout";
+}
+
+<h3>Client ajouté</h3>
+<ul>
+    <li>Id: @Model.Id</li>
+    <li>Nom: @Model.Nom</li>
+    <li>Prénom: @Model.Prenom</li>
+    <li>Ville: @Model.ville</li>
+</ul>
+<a asp-action="Index">Retourner à l'ajout</a>
